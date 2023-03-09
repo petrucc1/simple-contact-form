@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sarah Petrucci">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de contato</title>
+</head>
+
+<body>
+    <main>
+        <fieldset>
+            <legend>Entre em contato</legend>
+            <label for="subject">Assunto:</label>
+            <select name="subject" id="subject">
+                <option value="support">Suporte</option>
+                <option value="suggestion">Sugestão</option>
+                <option value="complaint">Reclamação</option>
+            </select>
+            <form action="">
+                <label for="name">Nome completo:</label>
+                <input type="name" id="name" placeholder="Seu nome">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="email@seudominio.com">
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="5" cols="33"></textarea>
+
+                <div class="accept-group">
+                    <input type="checkbox" id="accept">
+                    <label for="accept">Aceito receber novidades por e-mail.</label>
+                </div>
+
+                <br>
+
+                <button>Enviar</button>
+            </form>
+        </fieldset>
+    </main>
+</body>
+
+</html>

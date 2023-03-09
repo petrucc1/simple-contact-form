@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    margin: 50px auto;
+}
+
+main fieldset {
+    padding: 20px 30px;
+}
+
+main fieldset legend,
+main fieldset select,
+main fieldset form input,
+main fieldset form button {
+    font-size: 1.1rem;
+}
+
+main fieldset form {
+    display: flex;
+    flex-direction: column;
+}
+
+label,
+textarea {
+    letter-spacing: 1px;
+}
+
+textarea,
+input:not[type="checkbox"],
+select {
+    padding: 8px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+label {
+    display: block;
+    margin: 1em 0 0.3em;
+    font-size: 1.1rem;
+}
+
+div.accept-group {
+    display: flex;
+}
+
+div.accept-group input {
+    margin-right: 10px;
+    margin-top: 0.7em;
+}
+
